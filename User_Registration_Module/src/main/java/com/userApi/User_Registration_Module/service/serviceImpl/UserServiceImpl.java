@@ -196,8 +196,7 @@ public class UserServiceImpl implements UserService {
                 .status(HttpStatus.CREATED)
                 .body("User and Bank details are saved for "
                         + savedUser.getFirstName()
-                        + " and Account number: "
-                        + savedBankAccount.getAccountNumber());
+                        + " and Account number: " + savedBankAccount.getAccountNumber());
     }
 
 
